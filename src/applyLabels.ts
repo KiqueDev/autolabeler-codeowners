@@ -28,7 +28,7 @@ export async function applyLabels(
   } catch (error) {
     // if 422, label already exists
     if (error.status !== 422) {
-      throw error
+      // throw error
     }
   }
 
